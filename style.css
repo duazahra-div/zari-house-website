@@ -1,0 +1,173 @@
+﻿body {
+    background: #0f0f0f;
+    color: white;
+    font-family: 'Georgia', serif;
+}
+
+/* Navbar */
+.navbar {
+    background:black !important;
+}
+
+.navbar-brand {
+    color: #d4af37 !important;
+    font-size: 25px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.nav-link {
+    color: white !important;
+    margin-left: 15px;
+}
+
+    .nav-link:hover {
+        color: #d4af37 !important;
+    }
+
+/* Hero Section */
+.hero {
+    height: 500px;
+    background-size:contain;
+    background-position:center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+    .hero h1 {
+        font-size: 60px;
+        color: #d4af37;
+    }
+
+    .hero p {
+        font-size: 18px;
+    }
+
+/* Cards */
+/* Card overall */
+.card {
+    background-color: #222; /* white remove */
+    border-radius: 15px;
+    border: 1px solid #222;
+    overflow: hidden;
+    transition: 0.3s;
+    text-align: center;
+}
+
+/* Image inside & centered */
+.card-img-top {
+    height: 250px;
+    object-fit: fill;
+    border-radius: 10px;
+    margin: 15px auto;
+    width: 90%;
+    display: block;
+}
+
+/* Hover effect */
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 25px rgba(212,175,55,0.4); /* golden shadow */
+}
+
+/* Title (golden) */
+.card-title {
+    color: #d4af37; /* gold color */
+    font-weight: bold;
+}
+
+/* Text visible */
+.card-body p {
+    color: #ccc; /* light gray (visible on dark bg) */
+}
+
+/* Button */
+.btn-gold {
+    background-color: #d4af37;
+    color: black;
+    border: none;
+}
+
+    .btn-gold:hover {
+        background-color: #b8962e;
+    }
+
+.card img {
+    width: 100%;
+    height: 250px; /* FIXED HEIGHT (important) */
+    object-fit: contain; /* image crop ho kar same size banegi */
+    border-radius: 10px;
+    display: flex;
+}
+
+
+.modal-content img {
+    width: 70% !important; /* balanced size */
+    max-height: 300px !important; /* control height */
+    object-fit: contain !important;
+    display: block !important;
+    margin: 10px auto !important; /* center */
+    border-radius: 12px !important;
+}
+.modal-content {
+    border-radius: 10px;
+    block-size: contain;
+  
+}
+
+    .modal-content h5 {
+        color: #d4af37; /* gold */
+        margin-bottom: 10px;
+    }
+/* Slider*/
+.carousel-item {
+    height: 400px;
+}
+
+.carousel-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+/* Buttons */
+.btn-gold {
+    background: #d4af37;
+    color: black;
+    border: none;
+    font-weight: bold;
+}
+
+    .btn-gold:hover {
+        background: #b8962e;
+    }
+
+/* Section Titles */
+.section-title {
+    text-align: center;
+    margin: 40px 0;
+    color: #d4af37;
+}
+
+/* Footer */
+footer {
+    background: rgba(212,175,55,0.4);
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+    color: #ccc;
+}
+
+/* Inputs */
+input, textarea {
+    background: #1a1a1a !important;
+    border: none !important;
+    color: white !important;
+}
+
+.subscribe-form input::placeholder {
+    color: white; /* gold placeholder */
+    opacity: 1; /* ensure visibility in all browsers */
+}
